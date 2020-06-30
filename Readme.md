@@ -2,6 +2,20 @@
 --------------
 ##### or just OpenImage JS
 
+###### demo with images
+![](demo_openimage.gif)
+
+###### demo with youtube
+![](demo_openvideo.gif)
+
+## Step 0
+If you won't to clone and build library, you can use jsDelivr links:\
+```
+https://cdn.jsdelivr.net/npm/oiiijs/build/oiii.min.js
+https://cdn.jsdelivr.net/npm/oiiijs/build/styles/oiii.min.css
+```
+Next: go to step 2
+
 ## Step 1
 Clone this repository first:\
 `git clone https://github.com/tomasci/oiii.git`
