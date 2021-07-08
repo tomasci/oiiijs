@@ -90,3 +90,25 @@ Example:
 ```
 <a data-oi-video data-oi-yt="">video 3</a>
 ```
+
+## Usage with React
+Copy .scss styles into your styles. Copy index.js into your project as oiii.js. At the end of the file comment line
+```
+module.exports = Oiii
+```
+and uncomment
+```
+export default Oiii
+```
+In React:
+```
+useEffect(() => {
+    let oi = new Oiii()
+    
+    return () => {
+        oi.unload()
+    }
+})
+```
+
+Don't forget to unload when component unmount.

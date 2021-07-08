@@ -145,6 +145,11 @@ class Oiii {
         let match = url.match(regExp)
         return (match && match[7].length===11) ? match[7] : false
     }
+
+    unload() {
+        document.body.removeChild(this.#viewer.area)
+    }
 }
 
 module.exports = Oiii
+// export default Oiii
